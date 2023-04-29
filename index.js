@@ -67,7 +67,7 @@ app.post(
 
 app.use("/image",express.static("Image"))
 
-
+console.log('Hello')
 app.listen(5001, () => {
     console.log("server started")
 })
